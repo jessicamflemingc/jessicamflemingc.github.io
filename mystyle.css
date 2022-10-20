@@ -11,7 +11,6 @@
 /*This was used multiple time for the top of sections to underline the writing to help visualize the seperation*/
 .underlineheader {
 	color: #747474;
-	text-decoration: bold;
 	text-decoration: underline;
 	padding: 20px 24px;
 	margin: 15px
