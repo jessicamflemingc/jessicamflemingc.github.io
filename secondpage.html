@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<!-- the beginning of the navigation bar -->
+<div class="welcome">
+  <a href="index.html">HOME</a>
+  <a class="active" href="MORE">MORE</a>
+</div>
+<!--end of the navigation bar -->
+<div class = "indexmain">
+  <h1 class="greytext">WELCOME</h1>
+  <h2 class="underlinesecond"></h2>
+</div>
+
+<div >
+<h2 class="underlineheader"> My life outside of work and school </h2>
+<p class="greytext">I have a fairly active lifestyle when i'm not working on school work or working. In the winter I like to snowboard, cross country ski and snowshoe. The rest of the year you can find me hiking, biking, running, camping, and more! It's hard to keep me inside during the summer time. Below, are some pictures of my hobbies along with my pets.</p>
+</div>
+
+<!-- beginning of image option, gallery of snowboarding -->
+<div class="gallery">
+  <a target="_blank" href="tremblant.jpg">
+    <img src="tremblant.jpg" alt="Mount Tremblant" width="320" height="240">
+  </a>
+  <div class="desc">Snowboarding at Mount Tremblant with friends</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="Rascal.jpg">
+    <img src="Rascal.jpg" alt="Rascal" width="320" height="240">
+  </a>
+  <div class="desc">My dog Rascal. He likes to make a mess of my pillows and go for walks</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="nalacat.jpg">
+    <img src="nalacat.jpg" alt="Nala" width="320" height="240">
+  </a>
+  <div class="desc">My cat Nala. She sleeps all day and doesn't do much of anything</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="seado.jpg">
+    <img src="seado.jpg" alt="seadoo" width="320" height="240">
+  </a>
+  <div class="desc">Seadooing at sunset has become a new favourite hobby in the summer</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="moon.jpg">
+    <img src="moon.jpg" alt="Nala" width="320" height="240">
+  </a>
+  <div class="desc">Watching the night sky has always been one of my favourite things to do</div>
+</div>
+<!-- end of image option, gallery hobbies outside of work and school-->
+
+<!--More images are included in this section, but just as regular images and not gallery styled ones-->
+<div>
+<h3 class="underlineheader"> Previous school work </h3>
+<p class="greytext">In my fourth year remote sensing course, I completed a change detection of agricultural expansion in Mato Grosso in Brazil from June 1996 to June 2005 using Landsat 5 TM. This project explored the conversion of non-agricultural land to agricultural lands and how it has exponentially increased in recent decades. Below, you can see the difference between the observed decade. On the left is the study area in June 1996 and on the right is in June of 2005. The yellow represents the agrilcultural lands, and can be observed to have exponentially increased over the decade. </p>
+<img src="MatoGrosso.jpg" alt = "Mato Grosso 1996">
+<img src="MatoGrosso2.jpg" alt="Mato Grosso 2005">
+<p class="greytext">To be able to properly assess the change of land cover between the two images, a post-classification analysis was performed. The result of the post-classification was several different classes, but only four of which had values applicable to the study. These classes were then aggregated down to the following four classes: always forest (no change), forest to agriculture, agriculture to forest, and always agriculture. In figure 7, the grey represents areas that were not changed between the two imaging dates. Changes from forest to agriculture were significant in these cases. The yellow in the post-classification represents the amounts of forest that was lost between 1996 and 2005. The results indicate that there has been significant change in this study area during the nine years of study. To quantify the amount of change that is visible in the post-classification, areareport (Table 1) was used to calculate the total number of hectares that had changed as well as the percentage of land cover.</p>
+<img src="postclassification.jpg" alt="Post Classification results">
+</div>
+<!--this is the end of this image section-->
+
+<!--This is the beginning of the table section -->
+<div class="table">
+<body>
+<table style="width:50%">
+  <tr>
+    <th>Class</th>
+    <th>Area(Hectares)</th>
+    <th>Area(%)</th>
+  </tr>
+  <tr>
+    <td>Always forest</td>
+    <td>456,221.97</td>
+    <td>9.85</td>
+  </tr>
+  <tr>
+    <td>Forest to agriculture</td>
+    <td>2,026,930.68</td>
+    <td>43.75</td>
+  </tr>
+  <tr>
+    <td>Agriculture to forest</td>
+    <td>42,131.34</td>
+    <td>0.91</td>
+  </tr>
+  <tr>
+    <td>Always agriculture</td>
+    <td>776,121.48</td>
+    <td>16.75</td>
+  </tr>
+</table>
+<!--This is the end of the end section -->
+</body>
+</div>
+</html>
+
+<!-- photo gallery inspiration is from w3schools https://www.w3schools.com/css/css_image_gallery.asp. I changed the sizing of the photos to match 
+the native resolution of the chosen images. I think added descriptions to the images and the layout of the gallery options -->
+<!-- The table formatting was based off of w3schools HTML tables https://www.w3schools.com/html/html_tables.asp for the basic layout and the to style
+the table I used the CSS Table section to change the colouring, sizing, and padding of the columns/rows https://www.w3schools.com/css/css_table.asp-->
+
+
