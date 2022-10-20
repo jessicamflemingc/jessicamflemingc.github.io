@@ -1,0 +1,136 @@
+/*I have used the index main class create sections like on the index.html page i seperated the education section and the professional section*/
+.indexmain {
+	padding:15px;margin-top:0px;margin-bottom:0px;background-color:white;
+}
+/*I used the titletext for the index page to create my 'Jessica' title to really make it pop at the top of my page*/
+.titletext {
+	color: #747474;
+	margin-top:10px;
+	background-color:white;
+}
+/*This was used multiple time for the top of sections to underline the writing to help visualize the seperation*/
+.underlineheader {
+	color: #747474;
+	text-decoration: bold;
+	text-decoration: underline;
+	padding: 20px 24px;
+	margin: 15px
+}
+/*this was used for just about all of my text throughout both pages. I made it grey to comliment the rest of the design more than the harshness of black*/
+.greytext {
+	color: #747474;
+	padding: 3px;
+	margin: 10px
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*This class '.welcome' was used for the style/CSS of my navigation bar. I started with the basics of the example from https://www.w3schools.com/css/css_navbar.asp and heaviliy modified it with different colour choices, hovering, text, etc...*/
+.welcome {
+  overflow: hidden;
+  background-color: CornflowerBlue;
+}
+
+.welcome a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.welcome a:hover {
+  background-color: LightSkyBlue;
+  color: white;
+}
+
+.welcome a.active {
+  background-color: #4169E1;
+  color: white;
+}
+/*This is the end of my navigation bar CSS styling */
+
+/*I styled my h1 headers with several changes to make sure I met item 'C' of the CSS requirement section with atleast 3 declarations and 2 of the 7 user agent stylesheet default declarations being overridden*/
+
+h1 {
+	color: #747474;
+	font-weight: bold;
+	text-align: center;
+	font-size: 4em;
+	margin-block-start: 0.20em;
+	margin-block-end: 0.20em;
+}
+/*For the h3 and h4 I did mostly the same changes as the h1 headers, just slightly different styling for the margin and font size to apply to the application sectiosn i used them in*/
+
+h3 {
+	color: #747474;
+	font-weight:bold;
+	text-align: left;
+	font-size: 1.5em;
+	margin-block-start:1em;
+	margin-block-end:1em;
+	margin: 8px
+}
+
+h4 {
+	color: #747474;
+	font-weight:bold;
+	text-align: left;
+	font-size: 1em;
+	margin-block-start:1.5em;
+	margin-block-end:1.5em;
+}
+p {
+	color: #747474;
+	text-align: left;
+	font-size:1em;
+	margin-block-start:0.20em;
+	margin-block-end:0.20em;
+}
+/*This is the styling section i used for msot of the photos I included throughout both pages. I used a the gallery function based off of https://www.w3schools.com/css/css_image_gallery.asp but made some applicable modificiations to best suit my webpage */
+
+div.gallery {
+  margin: 25px;
+  border: 2px solid #747474;
+  float: left;
+  width: 320px;
+}
+
+div.gallery:hover {
+  border: 3px solid #747474;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+/*This is the end of my gallery style section*/
+
+/*This is the section where i styled my table on page 2. I got the basics off of https://www.w3schools.com/html/html_tables.asp and https://www.w3schools.com/css/css_table.asp*/
+
+div.table {
+  border-collapse: collapse;
+}
+div.table
+th, td {
+  padding: 15px;
+}
+div.table
+th {
+  background-color: #6495ED;
+  color: white;
+}
+div.table
+td {
+  background-color: #F5F5F5;
+  color: black;
+}
+/*This is the end of my table section*/
