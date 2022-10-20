@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html>
-<body>
 <head>
-<style>
-body {
-  background-color: LightSalmon;
-  color: white;
-  font-family:verdana;
-}
-h1 {
-	font-size: 300%;
-	text-align:center;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="mystyle.css">
 </head>
-<h1>WELOME</h1>
+<body>
+<!-- the beginning of the navigation bar -->
+<div class="welcome">
+  <a class="active" href="#home">HOME</a>
+  <a href="secondpage.html">MORE</a>
+</div>
+<!--end of the navigation bar -->
 
-<h2 style="color:white;">My name is Jessica and this is my personal webpage</h2>
+<h1 class="titletext">JESSICA M.</h1>
+<!-- beginning of photo gallery for my University in North Bay -->
+<div class="gallery">
+  <a target="_blank" href="nipissing.jpg">
+    <img src="nipissing.jpg" alt="Nipissing University" width="320" height="240">
+  </a>
+  <div class="desc">Nipissing University & Canadore College Campus, North Bay, ON.</div>
+</div>
+<!-- end of the photo section for my University in North Bay -->
+<div class="indexmain">
+  <h3 class="underlineheader">EDUCATION</h3>
+  <h4 class="greytext">Fleming College</h4>
+  <p class="greytext">-Post Graduate Certificate for GIS Applications Specialist</p>
+  <p class="greytext">-Student Representative for the Canadian Cartographic Association
+  <h4 class="greytext">Nipissing university</h4>
+  <p class="greytext">-Honours Bachelor of Arts Specialization in Environmental Geography</p>
+  <p class="greytext">-Certificate in Environmental Managemental and Certificate in Geomatics</p>
+  <p class="greytext">-Nipissing University Undergraduate Research Conference Presentation – “A Multi-Variate Analysis of Cyanobacteria Blooms in Ontario Lakes from 2014-2017”</p>
+ </div>
 
-<p>
 
-</p>
+<!--Beginnig of photo section for my work places over the past couple years-->
+<div class = "indexmain">
+<div class="gallery">
+  <a target="_blank" href="eastsides.jpg">
+    <img src="eastsides.jpg" alt="East Side Mario's" width="240" height="320">
+  </a>
+  <div class="desc">East Side Mario's</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="southmedic.jpg">
+    <img src="southmedic.jpg" alt="Southmedic Inc" width="240" height="320">
+  </a>
+  <div class="desc">Southmedic Inc.</div>
+</div>
+<!-- End of photo section for my work places over the past couple years-->
+  <h3 class="underlineheader">PROFESSIONAL EXPERIENCE</h3>
+  <h4 class= "greytext">East Side Mario's - Server and Bartender (June 2021 - Present)</h4>
+  <p class= "greytext">Prepares a wide selection of mixed drinks and beverages for bar and restaurant customers. Open and close the bar 
+  in a timely and responsible manner. Responsible for positive guest interactions while serving guests in a friendly and efficient manner
+  Adhere to the health and safety policies and procedures outlined in the Health and Safety Program. </p>
+  <h4 class= "greytext">SouthMedic Inc. - Quality Technician (March - September 2022)</h4>
+  <p class= "greytext">Coordinated MRB meetings on a regular frequency to review non-conformances requiring a decision for disposition. 
+  Established and provided direction for all rework/re-inspection instructions when applicable
+  Ensured all rework/re-inspection exercises were completed successfully by performing acceptable quality level (AQL) inspections
+  Communicated clearly, effectively and professionally with customers, regulatory representatives, suppliers and within the Southmedic team. </p>
+  <h4 class="greytext">Southmedic Inc. - Quality Associate (July 2020 - March 2022)</h4>
+  <p class="greytext">Responsible for all aspects of product, process and documentation quality. Ensured all documentation related to the successful release of a finished product is complete and conforms to all Standard Operating Procedures (SOPs), customer requirements and Good Manufacturing Practices (GMPs). Utilized a variety of measuring devices including calipers, micrometers, pin gauges and CMM. Performed checks on in-process samples to ensure the continuous quality of medical devices. Responsible for performing receiving inspections on incoming material to ensure it complies to set acceptance criteria
+   
+</div>
 
 </body>
 </html>
+
+<!--the navigation bar content creation was inspired by w3schools.com https://www.w3schools.com/css/css_navbar.asp
+I liked the look of the nav bar being across the top with different colours as you hover over it. So I used the example code as inspiration and then 
+changed the colours to include LightSalmon for the main bar, tomato for the active page, and changed the font colouring and font family-->
+<!-- photo gallery inspiration is from w3schools https://www.w3schools.com/css/css_image_gallery.asp. I changed the sizing of the photos to match 
+the native resolution of the chosen images. I think added descriptions to the images and the layout of the gallery options -->
